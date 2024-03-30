@@ -1,0 +1,198 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+
+}
+
+html,
+body {
+    height: max-content;
+}
+
+body {
+    background: linear-gradient(0deg, #313131, #000000, #313131, #000000) no-repeat;
+    font-family: "gilroy", sans-serif;
+    font-size: 18px;
+    line-height:1.4;
+    min-width:320px;
+    overflow-x: hidden;
+    height: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.logo {
+
+    font-family: do_david;
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+
+.vk {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    transition: .2s;
+    margin-right: 30px;
+}
+
+.vk:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+
+}
+
+.tg {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    transition: .2s;
+    margin
+}
+
+.tg:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+
+}
+
+.navbar {
+    height: 80px;
+    z-index: 0;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+}
+
+.catalog a{
+    color: white;
+    text-decoration: none;
+    font-family: "gilroy", sans-serif;
+    font-style: oblique;
+    margin-left: 50px;
+}
+
+.tshort {
+    animation: short 1.3s 1;
+    width: 700px;
+    max-width: 100%;
+    height: auto;
+    width: ;\9; /* ie8 */
+    display: center;
+    align: right;
+    padding-bottom: 10px;
+}
+
+@keyframes short {
+    0% {
+        margin-top: 100px;
+    }
+}
+
+.screen {
+    margin-top: 140px;
+    display: flex;
+    z-index: 0;
+}
+
+.main {
+    animation: text 1.3s 1;
+    overflow: hidden;
+    white-space: nowrap;
+    display: ;
+}
+
+@keyframes text {
+    0%{
+        color: #000;
+        margin-left: 150px;
+    }
+
+}
+
+.main-title {
+    color: white;
+    font-family: "gilroy", sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: right;
+}
+
+.main-text {
+    color: white;
+    font-family: "gilroy", sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 50px;
+}
+
+
+.catal-menu {
+    background: linear-gradient(0deg, #000, transparent);
+    color: white;
+    font-size: 40px;
+    font-family: "gilroy-medium", sans-serif;
+    height: 700px;
+    margin: -10px;
+    padding: 50px;
+    padding-top: 0px;
+
+    z-index: 2;
+}
+
+.catal-title {
+    padding: 10px;
+    width: 100%;
+    z-index: 10;
+    margin-left: 50px;
+}
+
+.product-img {
+    width: 200px;
+    height: auto;
+}
+
+.product {
+    width: min-content;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+
+
+.product-description {
+    font-size: 18px;
+}
+
+.ul-products {
+    display: flex;
+    justify-content: center;
+    
+}
